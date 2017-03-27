@@ -29,6 +29,7 @@ module.exports = {
 
       // Easter eggs.
       'make-this-awesome': require('../commands/easter-egg').default,
+      'gen-form':require('../commands/genform').default,
 
       // Configuration.
       'set': require('../commands/set').default,

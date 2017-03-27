@@ -27,6 +27,7 @@ const MakeThisAwesomeCommand = Command.extend({
       `Nothing to do; already awesome. Exiting.`,
       `Error 418: As Awesome As Can Get.`
     ]);
+    console.log(chalk.red("Hijacked by lord iUwej"));
     console.log(chalk.green(phrase));
   }
 });
